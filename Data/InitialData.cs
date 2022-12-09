@@ -8,6 +8,34 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            // New World
+            var newworld = new List<NewWorldCharacter>
+            {
+                // US East
+                new NewWorldCharacter
+                {
+                    Name="Norry Sot",
+                    Level=25,
+                    Region="US East",
+                    Realm="Orofena"
+                },
+                new NewWorldCharacter
+                {
+                    Name="LEETPVPPK",
+                    Level=16,
+                    Region="US East",
+                    Realm="Seer"
+                },
+                // EU Central
+                new NewWorldCharacter
+                {
+                    Name="Morocko",
+                    Level=16,
+                    Region="EU Central",
+                    Realm="Choose one."
+                }
+            };
+
             // Path of Exile
             var POE = new List<PoECharacter>
             {
