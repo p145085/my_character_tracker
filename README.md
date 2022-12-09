@@ -10,6 +10,8 @@ World of Warcraft (Retail)
 
 Diablo 2: Resurrected
 
+Path of Exile
+
 **To-do:**
 
 World of Warcraft (Classic)
@@ -35,8 +37,6 @@ Counter Strike : Global Offensive
 Dota 2
 
 Quake Live
-
-Path of Exile
 
 Old School Runescape
 
