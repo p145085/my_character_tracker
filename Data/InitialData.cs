@@ -8,6 +8,178 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var POE = new List<PoECharacter>
+            {
+                new PoECharacter
+                {
+                    Name="DANGERBICEPSFLEMING",
+                    Level=78,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="FRIFIRFIR",
+                    Level=64,
+                    Class="Raider",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="GENJIXAXA",
+                    Level=42,
+                    Class="Shadow",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="HIBIDIBIDOBI",
+                    Level=35,
+                    Class="Ranger",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="IDONTKNOWENGLISH",
+                    Level=23,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="JUGGALOKATYPERRY",
+                    Level=72,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="KKKKKKKKKFG",
+                    Level=25,
+                    Class="Ranger",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="KOALAMURRELEY",
+                    Level=65,
+                    Class="Marauder",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="PEWERERAA",
+                    Level=89,
+                    Class="Berserker",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="PROXYBOXXY",
+                    Level=59,
+                    Class="Assassin",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="REVERBL",
+                    Level=30,
+                    Class="Witch",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="SAGGAERGAERGA",
+                    Level=77,
+                    Class="Deadeye",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="SATANSBEE",
+                    Level=23,
+                    Class="Scion",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="SEVENOOSSEVENOOS",
+                    Level=83,
+                    Class="Scion",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="SLINGEROFPEBBLES",
+                    Level=62,
+                    Class="Templar",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="SPERURURU",
+                    Level=53,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="STRINGFOO",
+                    Level=46,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="SUPERDOGE",
+                    Level=81,
+                    Class="Scion",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="TEELAAAAAAAAAAA",
+                    Level=49,
+                    Class="Witch",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="THUNDERJANE",
+                    Level=50,
+                    Class="Ranger",
+                    IsHardcore=true
+                },
+                new PoECharacter
+                {
+                    Name="THWOSRT",
+                    Level=71,
+                    Class="Marauder",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="TWIDDLESTICKSMCGEE",
+                    Level=88,
+                    Class="Assassin",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="VAPENVAPEN",
+                    Level=44,
+                    Class="Slayer",
+                    IsHardcore=false
+                },
+                new PoECharacter
+                {
+                    Name="WTFIMCH",
+                    Level=56,
+                    Class="Scion",
+                    IsHardcore=false
+                }
+            };
+
             var D2R = new List<D2RCharacter>
             {
                 // Diablo 2: Resurrected
