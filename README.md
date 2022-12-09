@@ -2,10 +2,11 @@
 
 Manual entry of class-data in /Data/InitialData.
 
-Done:
+**Done:**
+
 Ultima Online Outlands.
 
-To-do:
+**To-do:**
 
 World of Warcraft (Retail)
 
