@@ -96,7 +96,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 85.5,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -107,7 +107,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 66.9,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -118,7 +118,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 55.6,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -164,7 +164,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -186,7 +186,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 56.5,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -197,7 +197,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 56,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -208,7 +208,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 50.1,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -232,7 +232,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -243,7 +243,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -254,7 +254,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -276,7 +276,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 80,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -287,7 +287,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 60,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -298,7 +298,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 50,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -311,7 +311,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -322,7 +322,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -333,7 +333,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -344,7 +344,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -355,7 +355,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -366,7 +366,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -377,7 +377,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 82.8,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -401,7 +401,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 94.5,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -412,7 +412,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 92.9,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -467,7 +467,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 77.9,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -480,7 +480,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -491,7 +491,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -502,7 +502,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -513,7 +513,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -524,7 +524,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -535,7 +535,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 91.5,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -546,7 +546,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 50.7,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -603,7 +603,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -625,7 +625,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 55.3,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -636,7 +636,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 52.9,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -647,7 +647,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 50.1,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -658,7 +658,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 41.6,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -704,7 +704,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -726,7 +726,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -737,7 +737,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 66,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -750,7 +750,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -761,7 +761,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -772,7 +772,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -783,7 +783,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -794,7 +794,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 86.9,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -805,7 +805,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 80.1,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -840,7 +840,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -851,7 +851,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -862,7 +862,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -873,7 +873,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -884,7 +884,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -895,7 +895,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -906,7 +906,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 70.3,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -919,7 +919,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -930,7 +930,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -941,7 +941,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -952,7 +952,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -963,7 +963,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 80,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -974,7 +974,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 80,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -985,7 +985,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 78.4,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -996,7 +996,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 61.6,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1031,7 +1031,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1042,7 +1042,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1053,7 +1053,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1064,7 +1064,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 80,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1075,7 +1075,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 70,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1099,7 +1099,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1110,7 +1110,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1121,7 +1121,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1132,7 +1132,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1143,7 +1143,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1154,7 +1154,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1165,7 +1165,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 81.5,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1176,7 +1176,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 18.3,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1255,7 +1255,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 50,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1268,7 +1268,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1279,7 +1279,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1290,7 +1290,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1301,7 +1301,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1312,7 +1312,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 100,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
@@ -1345,7 +1345,7 @@ namespace my_character_tracker.Data
                     {
                         Value = 49,
                         CurrentCap = 100,
-                        MaxCap = 120
+                        MaxCap = 100
                     }
                 )
             );
