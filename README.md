@@ -47,3 +47,5 @@ Pokemon Go
 Eve Online
 
 Alien Adoption Agency
+
+Call of Duty: Warzone 2.0
