@@ -8,6 +8,8 @@ Ultima Online Outlands.
 
 World of Warcraft (Retail)
 
+Diablo 2: Resurrected
+
 **To-do:**
 
 World of Warcraft (Classic)
@@ -19,8 +21,6 @@ Guild Wars 2
 Archeage
 
 New World
-
-Diablo 2: Resurrected
 
 Hearthstone
 
@@ -47,3 +47,5 @@ Pokemon Go
 Eve Online
 
 Alien Adoption Agency
+
+Call of Duty: Warzone 2.0
