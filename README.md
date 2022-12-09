@@ -6,9 +6,9 @@ Manual entry of class-data in /Data/InitialData.
 
 Ultima Online Outlands.
 
-**To-do:**
-
 World of Warcraft (Retail)
+
+**To-do:**
 
 World of Warcraft (Classic)
 
