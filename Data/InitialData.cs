@@ -8,6 +8,99 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var D2R = new List<D2RCharacter>
+            {
+                // Diablo 2: Resurrected
+                new D2RCharacter
+                {
+                    Name="BARACKA",
+                    Level=3,
+                    Class="Barbarian",
+                    Title=null,
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="BABARARUPHA",
+                    Level=6,
+                    Class="Barbarian",
+                    Title=null,
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="HOHOHO",
+                    Level=12,
+                    Class="Sorceress",
+                    Title=null,
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="DROODOLOLLEE",
+                    Level=40,
+                    Class="Druid",
+                    Title="Slayer",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="MULEMULEMULE",
+                    Level=1,
+                    Class="Barbarian",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="STASHMASTER",
+                    Level=3,
+                    Class="Amazon",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="CARDANOADA",
+                    Level=82,
+                    Class="Sorceress",
+                    Title="Matriarch",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="LAPPAHLAPAPP",
+                    Level=91,
+                    Class="Paladin",
+                    Title="Patriarch",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+                new D2RCharacter
+                {
+                    Name="POPULUS",
+                    Level=53,
+                    Class="Sorceress",
+                    Title="Slayer",
+                    IsOnline=true,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Diablo 2: Resurrected",
+                },
+            };
+
             // World of Warcraft
             var WoW = new List<WoWCharacter>
             {
@@ -281,18 +374,7 @@ namespace my_character_tracker.Data
             };
             WoW.ForEach(character => context.WoWCharacters.Add(character));
             context.SaveChanges();
-            // Path of Exile
-            var PoE = new List<PoECharacter>
-            {
-                new PoECharacter{
-                    Name="SEVENOOSSEVENOOS",
-                    Level=83,
-                    AddedToDatabase=DateTime.Now,
-                    Game="Path of Exile (Standard)"
-                }
-            };
-            PoE.ForEach(character => context.PoECharacters.Add(character));
-            context.SaveChanges();
+            
             // Ultima Online (SKILLS-LISTS)
             var sgtdinklebirchskills = new List<KeyValuePair<string, SkillValues>>();
             sgtdinklebirchskills.Add(
@@ -1751,7 +1833,19 @@ namespace my_character_tracker.Data
             };
             UOO.ForEach(character => context.UOCharacters.Add(character));
             context.SaveChanges();
-            //
+            
+            // Path of Exile
+            var PoE = new List<PoECharacter>
+            {
+                new PoECharacter{
+                    Name="SEVENOOSSEVENOOS",
+                    Level=83,
+                    AddedToDatabase=DateTime.Now,
+                    Game="Path of Exile (Standard)"
+                }
+            };
+            PoE.ForEach(character => context.PoECharacters.Add(character));
+            context.SaveChanges();
         }
     }
 }
