@@ -11,12 +11,273 @@ namespace my_character_tracker.Data
             // World of Warcraft
             var WoW = new List<WoWCharacter>
             {
+                // Realm: Burning Legion
+                new WoWCharacter{
+                    Name="Krossarn",
+                    Level=50,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
                 new WoWCharacter{
                     Name="Populus",
                     Level=60,
+                    Class="Rogue",
                     AddedToDatabase=DateTime.Now,
-                    Game="World of Warcraft (Retail)"
-                } 
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Bartimaeus",
+                    Level=51,
+                    Class="Mage",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Kellerman",
+                    Level=20,
+                    Class="Hunter",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Generaisnus",
+                    Level=20,
+                    Class="Warlock",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Lachance",
+                    Level=5,
+                    Class="Shaman",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Voodoohex",
+                    Level=20,
+                    Class="Priest",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Leavehimtome",
+                    Level=23,
+                    Class="Death Knight",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Matrondemoo",
+                    Level=20,
+                    Class="Paladin",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+                new WoWCharacter{
+                    Name="Colaburken",
+                    Level=14,
+                    Class="Druid",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Legion"
+                },
+
+                // Realm: Tarren Mill
+                new WoWCharacter{
+                    Name="Mitoshi",
+                    Level=60,
+                    Class="Priest",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Tarren Mill"
+                },
+                new WoWCharacter{
+                    Name="Gustafvasa",
+                    Level=40,
+                    Class="Demon Hunter",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Tarren Mill"
+                },
+                new WoWCharacter{
+                    Name="Duacron",
+                    Level=50,
+                    Class="Shaman",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Tarren Mill"
+                },
+                new WoWCharacter{
+                    Name="Clemenceii",
+                    Level=0,
+                    Class="Class Trial Completed",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Tarren Mill"
+                },
+                new WoWCharacter{
+                    Name="Turororo",
+                    Level=0,
+                    Class="Class Trial In Progress",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Tarren Mill"
+                },
+
+                // Realm: Trollbane
+                new WoWCharacter{
+                    Name="Gulleplutten",
+                    Level=1,
+                    Class="Shaman",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Trollbane"
+                },
+                new WoWCharacter{
+                    Name="Alanpran",
+                    Level=24,
+                    Class="Paladin",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Trollbane"
+                },
+                new WoWCharacter{
+                    Name="Mitoshi",
+                    Level=30,
+                    Class="Priest",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Trollbane"
+                },
+                new WoWCharacter{
+                    Name="Leftsock",
+                    Level=4,
+                    Class="Warlock",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Trollbane"
+                },
+
+                // Realm: Ravencrest
+                new WoWCharacter{
+                    Name="Tobbe",
+                    Level=2,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Ravencrest"
+                },
+                new WoWCharacter{
+                    Name="Populus",
+                    Level=11,
+                    Class="Mage",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Ravencrest"
+                },
+                new WoWCharacter{
+                    Name="Bobkebab",
+                    Level=3,
+                    Class="Priest",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Ravencrest"
+                },
+                new WoWCharacter{
+                    Name="Spadiee",
+                    Level=1,
+                    Class="Warlock",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Ravencrest"
+                },
+
+                // Realm: Burning Blade
+                new WoWCharacter{
+                    Name="Someoneelse",
+                    Level=4,
+                    Class="Hunter",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Blade"
+                },
+                new WoWCharacter{
+                    Name="Huhrhga",
+                    Level=1,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Blade"
+                },
+                new WoWCharacter{
+                    Name="Populus",
+                    Level=7,
+                    Class="Priest",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Burning Blade"
+                },
+
+                // Realm: Bloodhoof
+                new WoWCharacter{
+                    Name="Bartimaêus",
+                    Level=25,
+                    Class="Warlock",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Bloodhoof"
+                },
+                
+                // Realm: Emerald Dream
+                new WoWCharacter{
+                    Name="Krigsl7E13C9",
+                    Level=7,
+                    Class="Warlock",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Emerald Dream"
+                },
+
+                // Realm: Jaedenar
+                new WoWCharacter{
+                    Name="Spík",
+                    Level=26,
+                    Class="Death Knight",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Jaedenar"
+                },
+
+                // Realm: Alleria
+                new WoWCharacter{
+                    Name="Populus",
+                    Level=2,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Alleria"
+                },
+
+                // Realm: Antonidas
+                new WoWCharacter{
+                    Name="Populus",
+                    Level=2,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Now,
+                    Game="World of Warcraft (Retail)",
+                    Realm="Antonidas"
+                },
             };
             WoW.ForEach(character => context.WoWCharacters.Add(character));
             context.SaveChanges();
