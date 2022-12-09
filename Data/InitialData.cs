@@ -8,6 +8,7 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            // Path of Exile
             var POE = new List<PoECharacter>
             {
                 new PoECharacter
@@ -179,6 +180,8 @@ namespace my_character_tracker.Data
                     IsHardcore=false
                 }
             };
+            POE.ForEach(character => context.PoECharacters.Add(character));
+            context.SaveChanges();
 
             var D2R = new List<D2RCharacter>
             {
@@ -272,6 +275,8 @@ namespace my_character_tracker.Data
                     Game="Diablo 2: Resurrected",
                 },
             };
+            D2R.ForEach(character => context.D2RCharacters.Add(character));
+            context.SaveChanges();
 
             // World of Warcraft
             var WoW = new List<WoWCharacter>
@@ -2004,19 +2009,6 @@ namespace my_character_tracker.Data
                 }
             };
             UOO.ForEach(character => context.UOCharacters.Add(character));
-            context.SaveChanges();
-            
-            // Path of Exile
-            var PoE = new List<PoECharacter>
-            {
-                new PoECharacter{
-                    Name="SEVENOOSSEVENOOS",
-                    Level=83,
-                    AddedToDatabase=DateTime.Now,
-                    Game="Path of Exile (Standard)"
-                }
-            };
-            PoE.ForEach(character => context.PoECharacters.Add(character));
             context.SaveChanges();
         }
     }
