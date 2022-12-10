@@ -16,11 +16,11 @@ New World
 
 Ultima Online Secondage
 
+Guild Wars 2
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Guild Wars 2
 
 Archeage
 
