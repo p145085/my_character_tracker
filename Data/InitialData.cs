@@ -8,9 +8,28 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var overwatch = new List<OverwatchProfile>
+            {
+                // Overwatch
+                new OverwatchProfile
+                {
+                    Name="Populus",
+                    Level=766,
+                    HoursPlayedAllModes=842,
+                    GamesPlayedAllModes=4658,
+                    GamesWonAllModes=2217,
+                    EliminationsAllModes=93417,
+                    AssistsAllModes=535,
+                    KillStreakBestAllModes=35
+                }
+            };
+            overwatch.ForEach(character => context.OverwatchProfiles.Add(character));
+            context.SaveChanges();
+
+            // Hearthstone
             var hearthstone = new List<HearthstoneCharacter>
             {
-                // Guild Wars 2
+                // Hearthstone
                 new HearthstoneCharacter
                 {
                     Class="Death Knight",
@@ -95,7 +114,7 @@ namespace my_character_tracker.Data
             // Archeage
             var archeage = new List<ArcheageCharacter>
             {
-                // Guild Wars 2
+                // Archeage
                 new ArcheageCharacter
                 {
                     Name="Populus",
