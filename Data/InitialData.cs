@@ -580,7 +580,7 @@ namespace my_character_tracker.Data
             WoW.ForEach(character => context.WoWCharacters.Add(character));
             context.SaveChanges();
             
-            // Ultima Online (SKILLS-LISTS)
+            // Ultima Online Outlands (SKILLS-LISTS)
             var sgtdinklebirchskills = new List<KeyValuePair<string, SkillValues>>();
             sgtdinklebirchskills.Add(
                 new KeyValuePair<string, SkillValues>(
@@ -1897,7 +1897,797 @@ namespace my_character_tracker.Data
                     }
                 )
             );
-            // Ultima Online (CHARACTER-LISTS)
+
+            // Ultima Online Secondage (SKILLS-LISTS)
+            var spannskills = new List<KeyValuePair<string, double>>();
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Musicianship",
+                    100
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Herding",
+                    100
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Discordance",
+                    100
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    96.3
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    84.4
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Peacemaking",
+                    75.3
+                )
+            );
+            spannskills.Add(
+                new KeyValuePair<string, double>(
+                    "Fishing",
+                    24.7
+                )
+            );
+
+            var populuspkuosaskills = new List<KeyValuePair<string, double>>();
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tactics",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Swordsmanship",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    100
+                )
+            );
+            populuspkuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Resisting Spells",
+                    96.8
+                )
+            );
+
+            var aganksquadskills = new List<KeyValuePair<string, double>>();
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Anatomy",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tactics",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Archery",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealth",
+                    100
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    60
+                )
+            );
+            aganksquadskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tracking",
+                    40
+                )
+            );
+
+            var zhungskills = new List<KeyValuePair<string, double>>();
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Provocation",
+                    100
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Musicianship",
+                    100
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Resisting Spells",
+                    92.3
+                )
+            );
+            zhungskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    88
+                )
+            );
+
+            var jenniferskills = new List<KeyValuePair<string, double>>();
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Snooping",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealing",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealth",
+                    100
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tracking",
+                    50
+                )
+            );
+            jenniferskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    50
+                )
+            );
+
+            var thewindskills = new List<KeyValuePair<string, double>>();
+            thewindskills.Add(
+                new KeyValuePair<string, double>(
+                    "Alchemy",
+                    100
+                )
+            );
+            thewindskills.Add(
+                new KeyValuePair<string, double>(
+                    "Item Identification",
+                    100
+                )
+            );
+            thewindskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tinkering",
+                    100
+                )
+            );
+            thewindskills.Add(
+                new KeyValuePair<string, double>(
+                    "Carpentry",
+                    59.2
+                )
+            );
+            thewindskills.Add(
+                new KeyValuePair<string, double>(
+                    "Herding",
+                    57.3
+                )
+            );
+
+            var populuspkuosa2skills = new List<KeyValuePair<string, double>>();
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Healing",
+                    84.3
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Anatomy",
+                    80
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Detecting Hidden",
+                    80
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Tactics",
+                    80
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Mace Fighting",
+                    80
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Tracking",
+                    59.5
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    50
+                )
+            );
+            populuspkuosa2skills.Add(
+                new KeyValuePair<string, double>(
+                    "Resisting Spells",
+                    44.8
+                )
+            );
+
+            var shakeababyskills = new List<KeyValuePair<string, double>>();
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Fishing",
+                    100
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Cartography",
+                    98.5
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Lock Picking",
+                    95
+                )
+            );
+            shakeababyskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    93.5
+                )
+            );
+
+            var populusbluetmuosaskills = new List<KeyValuePair<string, double>>();
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Resisting Spells",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tactics",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Swordsmanship",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            populusbluetmuosaskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    100
+                )
+            );
+
+            var kanderskills = new List<KeyValuePair<string, double>>();
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Musicianship",
+                    100
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    100
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Peacemaking",
+                    96.3
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Herding",
+                    79.2
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    75.4
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Animal Taming",
+                    68.5
+                )
+            );
+            kanderskills.Add(
+                new KeyValuePair<string, double>(
+                    "Animal Lore",
+                    58.5
+                )
+            );
+
+            var maryelisabethwskills = new List<KeyValuePair<string, double>>();
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Anatomy",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Item Identification",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Detecting Hidden",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tactics",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Fencing",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            maryelisabethwskills.Add(
+                new KeyValuePair<string, double>(
+                    "Snooping",
+                    50.3
+                )
+            );
+
+            var wesleycrusherskills = new List<KeyValuePair<string, double>>();
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealth",
+                    100
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tracking",
+                    74.6
+                )
+            );
+            wesleycrusherskills.Add(
+                new KeyValuePair<string, double>(
+                    "Fishing",
+                    25.4
+                )
+            );
+
+            var chumbucketskills = new List<KeyValuePair<string, double>>();
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Evaluating Intelligence",
+                    100
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    100
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealth",
+                    100
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    97.4
+                )
+            );
+            chumbucketskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealing",
+                    97.3
+                )
+            );
+
+            var ugodatwayigohomeskills = new List<KeyValuePair<string, double>>();
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Hiding",
+                    100
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Snooping",
+                    100
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealing",
+                    100
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Wrestling",
+                    100
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Stealth",
+                    100
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Magery",
+                    98.9
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Meditation",
+                    61.1
+                )
+            );
+            ugodatwayigohomeskills.Add(
+                new KeyValuePair<string, double>(
+                    "Tracking",
+                    40
+                )
+            );
+            // Ultima Online Secondage (CHARACTER-LISTS)
+            var UOSA = new List<UltimaOnlineCharacter>
+            {
+                new UltimaOnlineCharacter
+                {
+                    Name = "Spann",
+                    TemplateDescription = "Herding and Discordance. Enticing pets.",
+                    SkillsUOSA = spannskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage"
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Populus",
+                    TemplateDescription = "Tankmage PK.",
+                    SkillsUOSA = populuspkuosaskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                    LongtermMurders=473,
+                    TournamentMatches=35
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "a ganksquad",
+                    TemplateDescription = "Stealth-archer",
+                    SkillsUOSA = aganksquadskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                    LongtermMurders=46
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Zhung",
+                    TemplateDescription = "Provocation Eval-mage",
+                    SkillsUOSA = zhungskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Zhung",
+                    TemplateDescription = "Provocation Eval-mage",
+                    SkillsUOSA = zhungskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Jennifer",
+                    TemplateDescription = "Mage-thief with tracking.",
+                    SkillsUOSA = jenniferskills,
+                    CharacterCreated = DateTime.Parse("2008-06-08"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "The Wind",
+                    TemplateDescription = "Tinker-trapper.",
+                    SkillsUOSA = thewindskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                    LongtermMurders=46
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Populus",
+                    TemplateDescription = "Macing-dexer",
+                    SkillsUOSA = populuspkuosa2skills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "ShakeABaby",
+                    TemplateDescription = "T-mapper and MIBer.",
+                    SkillsUOSA = shakeababyskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Populus",
+                    TemplateDescription = "Tankmage blue.",
+                    SkillsUOSA = populusbluetmuosaskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Kander",
+                    TemplateDescription = "Peacemaking and herding tamer",
+                    SkillsUOSA = kanderskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Mary Elisabeth W",
+                    TemplateDescription = "Gatekiller",
+                    SkillsUOSA = maryelisabethwskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Wesley Crusher",
+                    TemplateDescription = "Stealth eval-mage",
+                    SkillsUOSA = wesleycrusherskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "chumbucket",
+                    TemplateDescription = "Eval-thief",
+                    SkillsUOSA = chumbucketskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+                new UltimaOnlineCharacter
+                {
+                    Name = "Ugodatwayigohome",
+                    TemplateDescription = "Thief",
+                    SkillsUOSA = ugodatwayigohomeskills,
+                    CharacterCreated = DateTime.Parse("2009-07-13"),
+                    AddedToDatabase = DateTime.Now,
+                    Game = "Ultima Online Secondage",
+                },
+            };
+            // Ultima Online Outlands (CHARACTER-LISTS)
             var UOO = new List<UltimaOnlineCharacter>
             {
                 new UltimaOnlineCharacter
