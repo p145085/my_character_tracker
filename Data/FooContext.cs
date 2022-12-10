@@ -16,6 +16,7 @@ namespace my_character_tracker.Data
         public DbSet<D2RCharacter>? D2RCharacters { get; set; }
         public DbSet<NewWorldCharacter>? NewWorldCharacters { get; set; }
         public DbSet<GuildWars2Character>? GW2Characters { get; set; }
+        public DbSet<ArcheageCharacter>? ArcheageCharacters { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

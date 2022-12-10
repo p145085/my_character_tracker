@@ -8,6 +8,28 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var archeage = new List<ArcheageCharacter>
+            {
+                // Guild Wars 2
+                new ArcheageCharacter
+                {
+                    Name="Populus",
+                    Level=50,
+                    Class="Darkrunner",
+                    Realm="Leviathan"
+                },
+                new ArcheageCharacter
+                {
+                    Name="Bartimaeus",
+                    Level=35,
+                    Class="Demonologist",
+                    Realm="Leviathan"
+                }
+            };
+            archeage.ForEach(character => context.ArcheageCharacters.Add(character));
+            context.SaveChanges();
+
+            // Guild Wars 2
             var gw2 = new List<GuildWars2Character>
             {
                 // Guild Wars 2
