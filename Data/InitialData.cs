@@ -8,6 +8,48 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var gw2 = new List<GuildWars2Character>
+            {
+                // Guild Wars 2
+                new GuildWars2Character
+                {
+                    Name="Sarah Beau",
+                    Level=49,
+                    Class="Sylvari Elementalist",
+                    World="Gandara",
+                },
+                new GuildWars2Character
+                {
+                    Name="Ronald Macbrute",
+                    Level=30,
+                    Class="Norn Warrior",
+                    World="Gandara",
+                },
+                new GuildWars2Character
+                {
+                    Name="Sarah Lovecraft",
+                    Level=8,
+                    Class="Human Guardian",
+                    World="Gandara",
+                },
+                new GuildWars2Character
+                {
+                    Name="Cindy Reverse",
+                    Level=10,
+                    Class="Charr Ranger",
+                    World="Gandara",
+                },
+                new GuildWars2Character
+                {
+                    Name="Linda Fervor",
+                    Level=12,
+                    Class="Norn Ranger",
+                    World="Gandara",
+                },
+            };
+            gw2.ForEach(character => context.GW2Characters.Add(character));
+            context.SaveChanges();
+
             // New World
             var newworld = new List<NewWorldCharacter>
             {
@@ -35,6 +77,8 @@ namespace my_character_tracker.Data
                     Realm="Choose one."
                 }
             };
+            newworld.ForEach(character => context.NewWorldCharacters.Add(character));
+            context.SaveChanges();
 
             // Path of Exile
             var POE = new List<PoECharacter>
@@ -2687,6 +2731,9 @@ namespace my_character_tracker.Data
                     Game = "Ultima Online Secondage",
                 },
             };
+            UOSA.ForEach(character => context.UOCharacters.Add(character));
+            context.SaveChanges();
+
             // Ultima Online Outlands (CHARACTER-LISTS)
             var UOO = new List<UltimaOnlineCharacter>
             {

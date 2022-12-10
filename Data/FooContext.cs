@@ -13,8 +13,9 @@ namespace my_character_tracker.Data
         public DbSet<WoWCharacter>? WoWCharacters { get; set; }
         public DbSet<PoECharacter>? PoECharacters { get; set; }
         public DbSet<UltimaOnlineCharacter>? UOCharacters { get; set; }
-        public DbSet<D2RCharacter>? D2RCharacters { get; set;
-        }
+        public DbSet<D2RCharacter>? D2RCharacters { get; set; }
+        public DbSet<NewWorldCharacter>? NewWorldCharacters { get; set; }
+        public DbSet<GuildWars2Character>? GW2Characters { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
