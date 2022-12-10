@@ -12,6 +12,8 @@ Diablo 2: Resurrected
 
 Path of Exile
 
+New World
+
 **To-do:**
 
 World of Warcraft (Classic)
@@ -21,8 +23,6 @@ Ultima Online Secondage
 Guild Wars 2
 
 Archeage
-
-New World
 
 Hearthstone
 
