@@ -20,11 +20,11 @@ Guild Wars 2
 
 Archeage
 
+Hearthstone
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Hearthstone
 
 Overwatch
 
