@@ -8,6 +8,91 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var hearthstone = new List<HearthstoneCharacter>
+            {
+                // Guild Wars 2
+                new HearthstoneCharacter
+                {
+                    Class="Death Knight",
+                    Level=0,
+                    Wins=0,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Demon Hunter",
+                    Level=25,
+                    Wins=5,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Druid",
+                    Level=42,
+                    Wins=75,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Hunter",
+                    Level=41,
+                    Wins=132,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Mage",
+                    Level=49,
+                    Wins=122,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Paladin",
+                    Level=40,
+                    Wins=110,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Priest",
+                    Level=41,
+                    Wins=83,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Rogue",
+                    Level=47,
+                    Wins=106,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Shaman",
+                    Level=58,
+                    Wins=302,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Warlock",
+                    Level=46,
+                    Wins=106,
+                    Game="Hearthstone"
+                },
+                new HearthstoneCharacter
+                {
+                    Class="Warrior",
+                    Level=44,
+                    Wins=106,
+                    Game="Hearthstone"
+                },
+            };
+            hearthstone.ForEach(character => context.HearthstoneCharacters.Add(character));
+            context.SaveChanges();
+
+            // Archeage
             var archeage = new List<ArcheageCharacter>
             {
                 // Guild Wars 2
@@ -16,14 +101,16 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=50,
                     Class="Darkrunner",
-                    Realm="Leviathan"
+                    Realm="Leviathan",
+                    Game="Archeage"
                 },
                 new ArcheageCharacter
                 {
                     Name="Bartimaeus",
                     Level=35,
                     Class="Demonologist",
-                    Realm="Leviathan"
+                    Realm="Leviathan",
+                    Game="Archeage"
                 }
             };
             archeage.ForEach(character => context.ArcheageCharacters.Add(character));
@@ -39,6 +126,7 @@ namespace my_character_tracker.Data
                     Level=49,
                     Class="Sylvari Elementalist",
                     World="Gandara",
+                    Game="Guild Wars 2"
                 },
                 new GuildWars2Character
                 {
@@ -46,6 +134,7 @@ namespace my_character_tracker.Data
                     Level=30,
                     Class="Norn Warrior",
                     World="Gandara",
+                    Game="Guild Wars 2"
                 },
                 new GuildWars2Character
                 {
@@ -53,6 +142,7 @@ namespace my_character_tracker.Data
                     Level=8,
                     Class="Human Guardian",
                     World="Gandara",
+                    Game="Guild Wars 2"
                 },
                 new GuildWars2Character
                 {
@@ -60,6 +150,7 @@ namespace my_character_tracker.Data
                     Level=10,
                     Class="Charr Ranger",
                     World="Gandara",
+                    Game="Guild Wars 2"
                 },
                 new GuildWars2Character
                 {
@@ -67,6 +158,7 @@ namespace my_character_tracker.Data
                     Level=12,
                     Class="Norn Ranger",
                     World="Gandara",
+                    Game="Guild Wars 2"
                 },
             };
             gw2.ForEach(character => context.GW2Characters.Add(character));
@@ -81,14 +173,16 @@ namespace my_character_tracker.Data
                     Name="Norry Sot",
                     Level=25,
                     Region="US East",
-                    Realm="Orofena"
+                    Realm="Orofena",
+                    Game="New World"
                 },
                 new NewWorldCharacter
                 {
                     Name="LEETPVPPK",
                     Level=16,
                     Region="US East",
-                    Realm="Seer"
+                    Realm="Seer",
+                    Game="New World"
                 },
                 // EU Central
                 new NewWorldCharacter
@@ -96,7 +190,8 @@ namespace my_character_tracker.Data
                     Name="Morocko",
                     Level=16,
                     Region="EU Central",
-                    Realm="Choose one."
+                    Realm="Choose one.",
+                    Game="New World"
                 }
             };
             newworld.ForEach(character => context.NewWorldCharacters.Add(character));
@@ -110,168 +205,192 @@ namespace my_character_tracker.Data
                     Name="DANGERBICEPSFLEMING",
                     Level=78,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="FRIFIRFIR",
                     Level=64,
                     Class="Raider",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="GENJIXAXA",
                     Level=42,
                     Class="Shadow",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="HIBIDIBIDOBI",
                     Level=35,
                     Class="Ranger",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="IDONTKNOWENGLISH",
                     Level=23,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="JUGGALOKATYPERRY",
                     Level=72,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="KKKKKKKKKFG",
                     Level=25,
                     Class="Ranger",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="KOALAMURRELEY",
                     Level=65,
                     Class="Marauder",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="PEWERERAA",
                     Level=89,
                     Class="Berserker",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="PROXYBOXXY",
                     Level=59,
                     Class="Assassin",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="REVERBL",
                     Level=30,
                     Class="Witch",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SAGGAERGAERGA",
                     Level=77,
                     Class="Deadeye",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SATANSBEE",
                     Level=23,
                     Class="Scion",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SEVENOOSSEVENOOS",
                     Level=83,
                     Class="Scion",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SLINGEROFPEBBLES",
                     Level=62,
                     Class="Templar",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SPERURURU",
                     Level=53,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="STRINGFOO",
                     Level=46,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="SUPERDOGE",
                     Level=81,
                     Class="Scion",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="TEELAAAAAAAAAAA",
                     Level=49,
                     Class="Witch",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="THUNDERJANE",
                     Level=50,
                     Class="Ranger",
-                    IsHardcore=true
+                    IsHardcore=true,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="THWOSRT",
                     Level=71,
                     Class="Marauder",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="TWIDDLESTICKSMCGEE",
                     Level=88,
                     Class="Assassin",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="VAPENVAPEN",
                     Level=44,
                     Class="Slayer",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 },
                 new PoECharacter
                 {
                     Name="WTFIMCH",
                     Level=56,
                     Class="Scion",
-                    IsHardcore=false
+                    IsHardcore=false,
+                    Game="Path of Exile"
                 }
             };
             POE.ForEach(character => context.PoECharacters.Add(character));
