@@ -14,11 +14,11 @@ Path of Exile
 
 New World
 
+Ultima Online Secondage
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Ultima Online Secondage
 
 Guild Wars 2
 
