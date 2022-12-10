@@ -18,11 +18,11 @@ Ultima Online Secondage
 
 Guild Wars 2
 
+Archeage
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Archeage
 
 Hearthstone
 
