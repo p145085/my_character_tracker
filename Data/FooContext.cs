@@ -19,6 +19,7 @@ namespace my_character_tracker.Data
         public DbSet<ArcheageCharacter>? ArcheageCharacters { get; set; }
         public DbSet<HearthstoneCharacter>? HearthstoneCharacters { get; set; }
         public DbSet<OverwatchProfile>? OverwatchProfiles { get; set; }
+        public DbSet<HeroesOfTheStormCharacter>? heroesOfTheStormCharacters { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

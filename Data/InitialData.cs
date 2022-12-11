@@ -8,6 +8,16 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var heroesofthestorm = new List<HeroesOfTheStormCharacter>
+            {
+                // Overwatch
+                new HeroesOfTheStormCharacter
+                {
+                    Level=162
+                }
+            };
+
+            // Overwatch
             var overwatch = new List<OverwatchProfile>
             {
                 // Overwatch
@@ -20,7 +30,8 @@ namespace my_character_tracker.Data
                     GamesWonAllModes=2217,
                     EliminationsAllModes=93417,
                     AssistsAllModes=535,
-                    KillStreakBestAllModes=35
+                    KillStreakBestAllModes=35,
+                    Game="Overwatch"
                 }
             };
             overwatch.ForEach(character => context.OverwatchProfiles.Add(character));

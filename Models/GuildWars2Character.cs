@@ -11,6 +11,6 @@
         public DateTime CharacterCreated { get; set; }
         // Possibly add 'time played' per character.
         public DateTime AddedToDatabase { get; set; }
-        public string? Game { get; set; }
+        public string? Game { get; set; } = "Guild Wars 2";
     }
 }
