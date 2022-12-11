@@ -22,13 +22,11 @@ Archeage
 
 Hearthstone
 
+Overwatch
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Overwatch
-
-Starcraft 2
 
 Heroes of the Storm
 
