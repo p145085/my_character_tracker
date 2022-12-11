@@ -24,11 +24,11 @@ Hearthstone
 
 Overwatch
 
+Heroes of the Storm
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Heroes of the Storm
 
 Counter Strike : Global Offensive
 
