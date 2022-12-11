@@ -28,8 +28,6 @@ Overwatch
 
 World of Warcraft (Classic)
 
-Starcraft 2
-
 Heroes of the Storm
 
 Counter Strike : Global Offensive
