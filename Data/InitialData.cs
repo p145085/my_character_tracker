@@ -8,9 +8,19 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var CSGO = new List<CSGOProfile>
+            {
+                // Counter Strike: Global Offensive
+                new CSGOProfile
+                {
+                    Level = 5,
+                    HighestRankAchieved="Supreme Master First Class"
+                }
+            };
+
+            // Heroes of the Storm
             var heroesofthestorm = new List<HeroesOfTheStormCharacter>
             {
-                // Overwatch
                 new HeroesOfTheStormCharacter
                 {
                     Level=162
