@@ -26,11 +26,11 @@ Overwatch
 
 Heroes of the Storm
 
+Counter Strike : Global Offensive
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Counter Strike : Global Offensive
 
 Dota 2
 
