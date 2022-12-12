@@ -2770,9 +2770,9 @@ namespace my_character_tracker.Data
                 )
             );
             // Ultima Online Secondage (CHARACTER-LISTS)
-            var UOSA = new List<UltimaOnlineCharacter>
+            var UOSA = new List<UltimaOnlineSecondageCharacter>
             {
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Spann",
                     TemplateDescription = "Herding and Discordance. Enticing pets.",
@@ -2781,7 +2781,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage PK.",
@@ -2792,7 +2792,7 @@ namespace my_character_tracker.Data
                     LongtermMurders=473,
                     TournamentMatches=35
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "a ganksquad",
                     TemplateDescription = "Stealth-archer",
@@ -2802,7 +2802,7 @@ namespace my_character_tracker.Data
                     Game = "Ultima Online Secondage",
                     LongtermMurders=46
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Zhung",
                     TemplateDescription = "Provocation Eval-mage",
@@ -2811,7 +2811,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Zhung",
                     TemplateDescription = "Provocation Eval-mage",
@@ -2820,7 +2820,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Jennifer",
                     TemplateDescription = "Mage-thief with tracking.",
@@ -2829,7 +2829,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "The Wind",
                     TemplateDescription = "Tinker-trapper.",
@@ -2839,7 +2839,7 @@ namespace my_character_tracker.Data
                     Game = "Ultima Online Secondage",
                     LongtermMurders=46
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Macing-dexer",
@@ -2848,7 +2848,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "ShakeABaby",
                     TemplateDescription = "T-mapper and MIBer.",
@@ -2857,7 +2857,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage blue.",
@@ -2866,7 +2866,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Kander",
                     TemplateDescription = "Peacemaking and herding tamer",
@@ -2875,7 +2875,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Mary Elisabeth W",
                     TemplateDescription = "Gatekiller",
@@ -2884,7 +2884,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Wesley Crusher",
                     TemplateDescription = "Stealth eval-mage",
@@ -2893,7 +2893,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "chumbucket",
                     TemplateDescription = "Eval-thief",
@@ -2902,7 +2902,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Secondage",
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Ugodatwayigohome",
                     TemplateDescription = "Thief",
@@ -2916,9 +2916,9 @@ namespace my_character_tracker.Data
             context.SaveChanges();
 
             // Ultima Online Outlands (CHARACTER-LISTS)
-            var UOO = new List<UltimaOnlineCharacter>
+            var UOO = new List<UltimaOnlineSecondageCharacter>
             {
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Sgt Dinkle Birch",
                     TemplateDescription = "Veterinary-tamer",
@@ -2927,7 +2927,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Jean",
                     TemplateDescription = "Gatherer",
@@ -2936,7 +2936,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "a null player",
                     TemplateDescription = "Skinner, capable survivalist and moderate damage output.",
@@ -2945,7 +2945,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Barklund",
                     TemplateDescription = "Tankmage, designed for T2A PvP.",
@@ -2954,7 +2954,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Konsum",
                     TemplateDescription = "Peacemaking and Discordance macing-bard.",
@@ -2963,7 +2963,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "George",
                     TemplateDescription = "Fencing and Parrying dexxer with magery.",
@@ -2972,7 +2972,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Twindle",
                     TemplateDescription = "Gatherer",
@@ -2981,7 +2981,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Cartwright",
                     TemplateDescription = "T-mapper, lockpicker.",
@@ -2990,7 +2990,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Murdock",
                     TemplateDescription = "Tankmage w. alchemy & poisoning.",
@@ -2999,7 +2999,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "a wild slowpoke",
                     TemplateDescription = "Stealth-archer",
@@ -3008,7 +3008,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Gabriella",
                     TemplateDescription = "Thief",
@@ -3017,7 +3017,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Danger Tamer",
                     TemplateDescription = "Eval-tamer",
@@ -3026,7 +3026,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage designed for T2A PvP.",
@@ -3035,7 +3035,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "a frenzied harpy",
                     TemplateDescription = "Crafter",
@@ -3044,7 +3044,7 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Now,
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineCharacter
+                new UltimaOnlineSecondageCharacter
                 {
                     Name = "Jazzy Beat",
                     TemplateDescription = "Hally-stealth-PK with Taming and spiders.",

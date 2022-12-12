@@ -6,6 +6,7 @@
         public int CharacterIntId { get; set; }
         public string? Name { get; set; }
         public int Level { get; set; }
+        public int MaxLevel { get; set; } = 99;
         public string? Class { get; set; }
         public string? Title { get; set; }
         public bool IsOnline { get; set; }

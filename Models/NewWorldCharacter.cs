@@ -6,6 +6,7 @@
         public int CharacterIntId { get; set; }
         public string? Name { get; set; }
         public int Level { get; set; }
+        public int MaxLevel { get; set; } = 60;
         public string? Realm { get; set; }
         public string? Region { get; set; }
         public DateTime CharacterCreated { get; set; }

@@ -5,6 +5,7 @@
         public Guid CharacterId { get; set; }
         public int CharacterIntId { get; set; }
         public int Level { get; set; }
+        public int MaxLevel { get; set; } = 60;
         public string? Class { get; set; }
         public int? Wins { get; set; }
         public DateTime CharacterCreated { get; set; }

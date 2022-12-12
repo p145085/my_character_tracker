@@ -6,6 +6,7 @@
         public int CharacterIntId { get; set; }
         public string? Name { get; set; }
         public int Level { get; set; }
+        public int MaxLevel { get; set; } = 80;
         public string? World { get; set; }
         public string? Class { get; set; }
         public DateTime CharacterCreated { get; set; }
