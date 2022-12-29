@@ -2,6 +2,8 @@
 
 Manual entry of class-data in /Data/InitialData.
 
+Will add more games as I come to think of them. Will also add more detailed stats after I start constructing real custom queries.
+
 **Done:**
 
 Ultima Online Outlands.
