@@ -32,13 +32,13 @@ Dota 2
 
 Quake Live
 
-**To-do:**
-
-World of Warcraft (Classic)
-
 Old School Runescape
 
 Runescape
+
+**To-do:**
+
+World of Warcraft (Classic)
 
 Pokemon Go
 
