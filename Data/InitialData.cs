@@ -10,6 +10,35 @@ namespace my_character_tracker.Data
         {
 
 
+            // Eve Online
+            var EveOnline = new List<EveOnlineCharacter>
+            {
+                // Eve Online
+                new EveOnlineCharacter
+                {
+                    Name = "Hailey Elisabeth",
+                    SkillPoints = 15317091,
+                    SecurityStatus = -0.4,
+                    CharacterCreated = DateTime.Parse("2014-01-25"),
+                },
+                new EveOnlineCharacter
+                {
+                    Name = "Cpt Purple",
+                    SkillPoints = 922765,
+                    SecurityStatus = 0.0,
+                    CharacterCreated = DateTime.Parse("2021-03-23"),
+                },
+                new EveOnlineCharacter
+                {
+                    Name = "Margaret Fiddletwee",
+                    SkillPoints = 1514943,
+                    SecurityStatus = 0.0,
+                    CharacterCreated = DateTime.Parse("2015-01-04"),
+                }
+            };
+            EveOnline.ForEach(character => context.eveOnlineCharacters.Add(character));
+            context.SaveChanges();
+
             // Pokémon Go
             var PokemonGo = new List<PokemonGoProfile>
             {
@@ -26,6 +55,8 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Parse("2022-12-29"),
                 }
             };
+            PokemonGo.ForEach(character => context.pokemonGoProfiles.Add(character));
+            context.SaveChanges();
 
             // Runescape
             var Runescape = new List<RunescapeCharacter>
@@ -48,6 +79,8 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Parse("2022-12-29"),
                 },
             };
+            Runescape.ForEach(character => context.runescapeCharacters.Add(character));
+            context.SaveChanges();
 
             // Old School Runescape
             var OSRunescape = new List<OldSchoolRunescapeCharacter>
@@ -62,6 +95,8 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Parse("2022-12-29"),
                 }
             };
+            OSRunescape.ForEach(character => context.oldSchoolRunescapeCharacters.Add(character));
+            context.SaveChanges();
 
             // Quake Live
             var QuakeLive = new List<QuakeLiveProfile>
@@ -76,6 +111,8 @@ namespace my_character_tracker.Data
                     AddedToDatabase = DateTime.Parse("2022-12-29"),
                 }
             };
+            QuakeLive.ForEach(character => context.QuakeLiveProfiles.Add(character));
+            context.SaveChanges();
 
             // Defense of the Ancients 2 (DOTA 2)
             var Dota2 = new List<Dota2Profile>
@@ -91,6 +128,8 @@ namespace my_character_tracker.Data
                     Region = "Europe",
                 }
             };
+            Dota2.ForEach(character => context.Dota2Profiles.Add(character));
+            context.SaveChanges();
 
             // Counter Strike: Global Offensive
             var CSGO = new List<CSGOProfile>
@@ -102,6 +141,8 @@ namespace my_character_tracker.Data
                     HighestRankAchieved="Supreme Master First Class"
                 }
             };
+            CSGO.ForEach(character => context.CSGOProfiles.Add(character));
+            context.SaveChanges();
 
             // Heroes of the Storm
             var heroesofthestorm = new List<HeroesOfTheStormCharacter>
@@ -111,6 +152,8 @@ namespace my_character_tracker.Data
                     Level=162
                 }
             };
+            heroesofthestorm.ForEach(character => context.heroesOfTheStormCharacters.Add(character));
+            context.SaveChanges();
 
             // Overwatch
             var overwatch = new List<OverwatchProfile>
