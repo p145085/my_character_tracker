@@ -8,6 +8,21 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            var Dota2 = new List<Dota2Profile>
+            {
+                // Defense of the Ancients 2 (DOTA 2)
+                new Dota2Profile
+                {
+                    Name = "Populus",
+                    Level = 79,
+                    GamesPlayed = 1181,
+                    ProfileCreated = DateTime.Parse("2013-02-26"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                    Region = "Europe",
+                }
+            };
+
+            // Counter Strike: Global Offensive
             var CSGO = new List<CSGOProfile>
             {
                 // Counter Strike: Global Offensive
@@ -41,7 +56,8 @@ namespace my_character_tracker.Data
                     EliminationsAllModes=93417,
                     AssistsAllModes=535,
                     KillStreakBestAllModes=35,
-                    Game="Overwatch"
+                    Game="Overwatch",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 }
             };
             overwatch.ForEach(character => context.OverwatchProfiles.Add(character));
@@ -56,77 +72,88 @@ namespace my_character_tracker.Data
                     Class="Death Knight",
                     Level=0,
                     Wins=0,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Demon Hunter",
                     Level=25,
                     Wins=5,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Druid",
                     Level=42,
                     Wins=75,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Hunter",
                     Level=41,
                     Wins=132,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Mage",
                     Level=49,
                     Wins=122,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Paladin",
                     Level=40,
                     Wins=110,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Priest",
                     Level=41,
                     Wins=83,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Rogue",
                     Level=47,
                     Wins=106,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Shaman",
                     Level=58,
                     Wins=302,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Warlock",
                     Level=46,
                     Wins=106,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new HearthstoneCharacter
                 {
                     Class="Warrior",
                     Level=44,
                     Wins=106,
-                    Game="Hearthstone"
+                    Game="Hearthstone",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
             };
             hearthstone.ForEach(character => context.HearthstoneCharacters.Add(character));
@@ -142,7 +169,8 @@ namespace my_character_tracker.Data
                     Level=50,
                     Class="Darkrunner",
                     Realm="Leviathan",
-                    Game="Archeage"
+                    Game="Archeage",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new ArcheageCharacter
                 {
@@ -150,7 +178,8 @@ namespace my_character_tracker.Data
                     Level=35,
                     Class="Demonologist",
                     Realm="Leviathan",
-                    Game="Archeage"
+                    Game="Archeage",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 }
             };
             archeage.ForEach(character => context.ArcheageCharacters.Add(character));
@@ -166,7 +195,8 @@ namespace my_character_tracker.Data
                     Level=49,
                     Class="Sylvari Elementalist",
                     World="Gandara",
-                    Game="Guild Wars 2"
+                    Game="Guild Wars 2",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new GuildWars2Character
                 {
@@ -174,7 +204,8 @@ namespace my_character_tracker.Data
                     Level=30,
                     Class="Norn Warrior",
                     World="Gandara",
-                    Game="Guild Wars 2"
+                    Game="Guild Wars 2",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new GuildWars2Character
                 {
@@ -182,7 +213,8 @@ namespace my_character_tracker.Data
                     Level=8,
                     Class="Human Guardian",
                     World="Gandara",
-                    Game="Guild Wars 2"
+                    Game="Guild Wars 2",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new GuildWars2Character
                 {
@@ -190,7 +222,8 @@ namespace my_character_tracker.Data
                     Level=10,
                     Class="Charr Ranger",
                     World="Gandara",
-                    Game="Guild Wars 2"
+                    Game="Guild Wars 2",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new GuildWars2Character
                 {
@@ -198,7 +231,8 @@ namespace my_character_tracker.Data
                     Level=12,
                     Class="Norn Ranger",
                     World="Gandara",
-                    Game="Guild Wars 2"
+                    Game="Guild Wars 2",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
             };
             gw2.ForEach(character => context.GW2Characters.Add(character));
@@ -214,7 +248,8 @@ namespace my_character_tracker.Data
                     Level=25,
                     Region="US East",
                     Realm="Orofena",
-                    Game="New World"
+                    Game="New World",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new NewWorldCharacter
                 {
@@ -222,7 +257,8 @@ namespace my_character_tracker.Data
                     Level=16,
                     Region="US East",
                     Realm="Seer",
-                    Game="New World"
+                    Game="New World",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 // EU Central
                 new NewWorldCharacter
@@ -231,7 +267,8 @@ namespace my_character_tracker.Data
                     Level=16,
                     Region="EU Central",
                     Realm="Choose one.",
-                    Game="New World"
+                    Game="New World",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 }
             };
             newworld.ForEach(character => context.NewWorldCharacters.Add(character));
@@ -246,7 +283,8 @@ namespace my_character_tracker.Data
                     Level=78,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -254,7 +292,8 @@ namespace my_character_tracker.Data
                     Level=64,
                     Class="Raider",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -262,7 +301,8 @@ namespace my_character_tracker.Data
                     Level=42,
                     Class="Shadow",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -270,7 +310,8 @@ namespace my_character_tracker.Data
                     Level=35,
                     Class="Ranger",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -278,7 +319,8 @@ namespace my_character_tracker.Data
                     Level=23,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -286,7 +328,8 @@ namespace my_character_tracker.Data
                     Level=72,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -294,7 +337,8 @@ namespace my_character_tracker.Data
                     Level=25,
                     Class="Ranger",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -302,7 +346,8 @@ namespace my_character_tracker.Data
                     Level=65,
                     Class="Marauder",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -310,7 +355,8 @@ namespace my_character_tracker.Data
                     Level=89,
                     Class="Berserker",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -318,7 +364,8 @@ namespace my_character_tracker.Data
                     Level=59,
                     Class="Assassin",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -326,7 +373,8 @@ namespace my_character_tracker.Data
                     Level=30,
                     Class="Witch",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -334,7 +382,8 @@ namespace my_character_tracker.Data
                     Level=77,
                     Class="Deadeye",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -342,7 +391,8 @@ namespace my_character_tracker.Data
                     Level=23,
                     Class="Scion",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -350,7 +400,8 @@ namespace my_character_tracker.Data
                     Level=83,
                     Class="Scion",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -358,7 +409,8 @@ namespace my_character_tracker.Data
                     Level=62,
                     Class="Templar",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -366,7 +418,8 @@ namespace my_character_tracker.Data
                     Level=53,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -374,7 +427,8 @@ namespace my_character_tracker.Data
                     Level=46,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -382,7 +436,8 @@ namespace my_character_tracker.Data
                     Level=81,
                     Class="Scion",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -390,7 +445,8 @@ namespace my_character_tracker.Data
                     Level=49,
                     Class="Witch",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -398,7 +454,8 @@ namespace my_character_tracker.Data
                     Level=50,
                     Class="Ranger",
                     IsHardcore=true,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -406,7 +463,8 @@ namespace my_character_tracker.Data
                     Level=71,
                     Class="Marauder",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -414,7 +472,8 @@ namespace my_character_tracker.Data
                     Level=88,
                     Class="Assassin",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -422,7 +481,8 @@ namespace my_character_tracker.Data
                     Level=44,
                     Class="Slayer",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 },
                 new PoECharacter
                 {
@@ -430,7 +490,8 @@ namespace my_character_tracker.Data
                     Level=56,
                     Class="Scion",
                     IsHardcore=false,
-                    Game="Path of Exile"
+                    Game="Path of Exile",
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                 }
             };
             POE.ForEach(character => context.PoECharacters.Add(character));
@@ -446,7 +507,7 @@ namespace my_character_tracker.Data
                     Class="Barbarian",
                     Title=null,
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -456,7 +517,7 @@ namespace my_character_tracker.Data
                     Class="Barbarian",
                     Title=null,
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -466,7 +527,7 @@ namespace my_character_tracker.Data
                     Class="Sorceress",
                     Title=null,
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -476,7 +537,7 @@ namespace my_character_tracker.Data
                     Class="Druid",
                     Title="Slayer",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -485,7 +546,7 @@ namespace my_character_tracker.Data
                     Level=1,
                     Class="Barbarian",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -494,7 +555,7 @@ namespace my_character_tracker.Data
                     Level=3,
                     Class="Amazon",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -504,7 +565,7 @@ namespace my_character_tracker.Data
                     Class="Sorceress",
                     Title="Matriarch",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -514,7 +575,7 @@ namespace my_character_tracker.Data
                     Class="Paladin",
                     Title="Patriarch",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
                 new D2RCharacter
@@ -524,7 +585,7 @@ namespace my_character_tracker.Data
                     Class="Sorceress",
                     Title="Slayer",
                     IsOnline=true,
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="Diablo 2: Resurrected",
                 },
             };
@@ -539,7 +600,7 @@ namespace my_character_tracker.Data
                     Name="Krossarn",
                     Level=50,
                     Class="Warrior",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -547,7 +608,7 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=60,
                     Class="Rogue",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -555,7 +616,7 @@ namespace my_character_tracker.Data
                     Name="Bartimaeus",
                     Level=51,
                     Class="Mage",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -563,7 +624,7 @@ namespace my_character_tracker.Data
                     Name="Kellerman",
                     Level=20,
                     Class="Hunter",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -571,7 +632,7 @@ namespace my_character_tracker.Data
                     Name="Generaisnus",
                     Level=20,
                     Class="Warlock",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -579,7 +640,7 @@ namespace my_character_tracker.Data
                     Name="Lachance",
                     Level=5,
                     Class="Shaman",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -587,7 +648,7 @@ namespace my_character_tracker.Data
                     Name="Voodoohex",
                     Level=20,
                     Class="Priest",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -595,7 +656,7 @@ namespace my_character_tracker.Data
                     Name="Leavehimtome",
                     Level=23,
                     Class="Death Knight",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -603,7 +664,7 @@ namespace my_character_tracker.Data
                     Name="Matrondemoo",
                     Level=20,
                     Class="Paladin",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -611,7 +672,7 @@ namespace my_character_tracker.Data
                     Name="Colaburken",
                     Level=14,
                     Class="Druid",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Legion"
                 },
@@ -621,7 +682,7 @@ namespace my_character_tracker.Data
                     Name="Mitoshi",
                     Level=60,
                     Class="Priest",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Tarren Mill"
                 },
@@ -629,7 +690,7 @@ namespace my_character_tracker.Data
                     Name="Gustafvasa",
                     Level=40,
                     Class="Demon Hunter",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Tarren Mill"
                 },
@@ -637,7 +698,7 @@ namespace my_character_tracker.Data
                     Name="Duacron",
                     Level=50,
                     Class="Shaman",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Tarren Mill"
                 },
@@ -645,7 +706,7 @@ namespace my_character_tracker.Data
                     Name="Clemenceii",
                     Level=0,
                     Class="Class Trial Completed",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Tarren Mill"
                 },
@@ -653,7 +714,7 @@ namespace my_character_tracker.Data
                     Name="Turororo",
                     Level=0,
                     Class="Class Trial In Progress",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Tarren Mill"
                 },
@@ -663,7 +724,7 @@ namespace my_character_tracker.Data
                     Name="Gulleplutten",
                     Level=1,
                     Class="Shaman",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Trollbane"
                 },
@@ -671,7 +732,7 @@ namespace my_character_tracker.Data
                     Name="Alanpran",
                     Level=24,
                     Class="Paladin",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Trollbane"
                 },
@@ -679,7 +740,7 @@ namespace my_character_tracker.Data
                     Name="Mitoshi",
                     Level=30,
                     Class="Priest",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Trollbane"
                 },
@@ -687,7 +748,7 @@ namespace my_character_tracker.Data
                     Name="Leftsock",
                     Level=4,
                     Class="Warlock",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Trollbane"
                 },
@@ -697,7 +758,7 @@ namespace my_character_tracker.Data
                     Name="Tobbe",
                     Level=2,
                     Class="Warrior",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Ravencrest"
                 },
@@ -705,7 +766,7 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=11,
                     Class="Mage",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Ravencrest"
                 },
@@ -713,7 +774,7 @@ namespace my_character_tracker.Data
                     Name="Bobkebab",
                     Level=3,
                     Class="Priest",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Ravencrest"
                 },
@@ -721,7 +782,7 @@ namespace my_character_tracker.Data
                     Name="Spadiee",
                     Level=1,
                     Class="Warlock",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Ravencrest"
                 },
@@ -731,7 +792,7 @@ namespace my_character_tracker.Data
                     Name="Someoneelse",
                     Level=4,
                     Class="Hunter",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Blade"
                 },
@@ -739,7 +800,7 @@ namespace my_character_tracker.Data
                     Name="Huhrhga",
                     Level=1,
                     Class="Warrior",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Blade"
                 },
@@ -747,7 +808,7 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=7,
                     Class="Priest",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Burning Blade"
                 },
@@ -757,7 +818,7 @@ namespace my_character_tracker.Data
                     Name="Bartimaêus",
                     Level=25,
                     Class="Warlock",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Bloodhoof"
                 },
@@ -767,7 +828,7 @@ namespace my_character_tracker.Data
                     Name="Krigsl7E13C9",
                     Level=7,
                     Class="Warlock",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Emerald Dream"
                 },
@@ -777,7 +838,7 @@ namespace my_character_tracker.Data
                     Name="Spík",
                     Level=26,
                     Class="Death Knight",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Jaedenar"
                 },
@@ -787,7 +848,7 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=2,
                     Class="Warrior",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Alleria"
                 },
@@ -797,7 +858,7 @@ namespace my_character_tracker.Data
                     Name="Populus",
                     Level=2,
                     Class="Warrior",
-                    AddedToDatabase=DateTime.Now,
+                    AddedToDatabase=DateTime.Parse("2022-12-04"),
                     Game="World of Warcraft (Retail)",
                     Realm="Antonidas"
                 },
@@ -2776,18 +2837,18 @@ namespace my_character_tracker.Data
                 {
                     Name = "Spann",
                     TemplateDescription = "Herding and Discordance. Enticing pets.",
-                    SkillsUOSA = spannskills,
+                    Skills = spannskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage"
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage PK.",
-                    SkillsUOSA = populuspkuosaskills,
+                    Skills = populuspkuosaskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                     LongtermMurders=473,
                     TournamentMatches=35
@@ -2796,9 +2857,9 @@ namespace my_character_tracker.Data
                 {
                     Name = "a ganksquad",
                     TemplateDescription = "Stealth-archer",
-                    SkillsUOSA = aganksquadskills,
+                    Skills = aganksquadskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                     LongtermMurders=46
                 },
@@ -2806,36 +2867,36 @@ namespace my_character_tracker.Data
                 {
                     Name = "Zhung",
                     TemplateDescription = "Provocation Eval-mage",
-                    SkillsUOSA = zhungskills,
+                    Skills = zhungskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Zhung",
                     TemplateDescription = "Provocation Eval-mage",
-                    SkillsUOSA = zhungskills,
+                    Skills = zhungskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Jennifer",
                     TemplateDescription = "Mage-thief with tracking.",
-                    SkillsUOSA = jenniferskills,
+                    Skills = jenniferskills,
                     CharacterCreated = DateTime.Parse("2008-06-08"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "The Wind",
                     TemplateDescription = "Tinker-trapper.",
-                    SkillsUOSA = thewindskills,
+                    Skills = thewindskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                     LongtermMurders=46
                 },
@@ -2843,218 +2904,218 @@ namespace my_character_tracker.Data
                 {
                     Name = "Populus",
                     TemplateDescription = "Macing-dexer",
-                    SkillsUOSA = populuspkuosa2skills,
+                    Skills = populuspkuosa2skills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "ShakeABaby",
                     TemplateDescription = "T-mapper and MIBer.",
-                    SkillsUOSA = shakeababyskills,
+                    Skills = shakeababyskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage blue.",
-                    SkillsUOSA = populusbluetmuosaskills,
+                    Skills = populusbluetmuosaskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Kander",
                     TemplateDescription = "Peacemaking and herding tamer",
-                    SkillsUOSA = kanderskills,
+                    Skills = kanderskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Mary Elisabeth W",
                     TemplateDescription = "Gatekiller",
-                    SkillsUOSA = maryelisabethwskills,
+                    Skills = maryelisabethwskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Wesley Crusher",
                     TemplateDescription = "Stealth eval-mage",
-                    SkillsUOSA = wesleycrusherskills,
+                    Skills = wesleycrusherskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "chumbucket",
                     TemplateDescription = "Eval-thief",
-                    SkillsUOSA = chumbucketskills,
+                    Skills = chumbucketskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
                 new UltimaOnlineSecondageCharacter
                 {
                     Name = "Ugodatwayigohome",
                     TemplateDescription = "Thief",
-                    SkillsUOSA = ugodatwayigohomeskills,
+                    Skills = ugodatwayigohomeskills,
                     CharacterCreated = DateTime.Parse("2009-07-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Secondage",
                 },
             };
-            UOSA.ForEach(character => context.UOCharacters.Add(character));
+            UOSA.ForEach(character => context.UOSACharacters.Add(character));
             context.SaveChanges();
 
             // Ultima Online Outlands (CHARACTER-LISTS)
-            var UOO = new List<UltimaOnlineSecondageCharacter>
+            var UOO = new List<UltimaOnlineOutlandsCharacter>
             {
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Sgt Dinkle Birch",
                     TemplateDescription = "Veterinary-tamer",
                     Skills = sgtdinklebirchskills,
                     CharacterCreated = DateTime.Parse("2019-01-12"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Jean",
                     TemplateDescription = "Gatherer",
                     Skills = jeanskills,
                     CharacterCreated = DateTime.Parse("2019-01-16"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "a null player",
                     TemplateDescription = "Skinner, capable survivalist and moderate damage output.",
                     Skills = anullplayerskills,
                     CharacterCreated = DateTime.Parse("2022-09-26"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Barklund",
                     TemplateDescription = "Tankmage, designed for T2A PvP.",
                     Skills = barklundskills,
                     CharacterCreated = DateTime.Parse("2019-01-16"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Konsum",
                     TemplateDescription = "Peacemaking and Discordance macing-bard.",
                     Skills = konsumskills,
                     CharacterCreated = DateTime.Parse("2020-01-07"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "George",
                     TemplateDescription = "Fencing and Parrying dexxer with magery.",
                     Skills = georgeskills,
                     CharacterCreated = DateTime.Parse("2019-01-12"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Twindle",
                     TemplateDescription = "Gatherer",
                     Skills = twindleskills,
                     CharacterCreated = DateTime.Parse("2019-01-13"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Cartwright",
                     TemplateDescription = "T-mapper, lockpicker.",
                     Skills = cartwrightskills,
                     CharacterCreated = DateTime.Parse("2019-01-14"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Murdock",
                     TemplateDescription = "Tankmage w. alchemy & poisoning.",
                     Skills = murdockskills,
                     CharacterCreated = DateTime.Parse("2019-01-19"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "a wild slowpoke",
                     TemplateDescription = "Stealth-archer",
                     Skills = awildslowpokeskills,
                     CharacterCreated = DateTime.Parse("2020-04-12"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Gabriella",
                     TemplateDescription = "Thief",
                     Skills = gabriellaskills,
                     CharacterCreated = DateTime.Parse("2019-01-12"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Danger Tamer",
                     TemplateDescription = "Eval-tamer",
                     Skills = dangertamerskills,
                     CharacterCreated = DateTime.Parse("2022-02-21"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Populus",
                     TemplateDescription = "Tankmage designed for T2A PvP.",
                     Skills = populusskills,
                     CharacterCreated = DateTime.Parse("2019-01-19"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "a frenzied harpy",
                     TemplateDescription = "Crafter",
                     Skills = afrenziedharpyskills,
                     CharacterCreated = DateTime.Parse("2019-02-10"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 },
-                new UltimaOnlineSecondageCharacter
+                new UltimaOnlineOutlandsCharacter
                 {
                     Name = "Jazzy Beat",
                     TemplateDescription = "Hally-stealth-PK with Taming and spiders.",
                     Skills = jazzybeatskills,
                     CharacterCreated = DateTime.Parse("2019-07-12"),
-                    AddedToDatabase = DateTime.Now,
+                    AddedToDatabase = DateTime.Parse("2022-12-04"),
                     Game = "Ultima Online Outlands"
                 }
             };
-            UOO.ForEach(character => context.UOCharacters.Add(character));
+            UOO.ForEach(character => context.UOOCharacters.Add(character));
             context.SaveChanges();
         }
     }

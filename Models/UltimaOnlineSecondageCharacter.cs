@@ -8,8 +8,8 @@ namespace my_character_tracker.Models
         public int CharacterIntId { get; set; }
         public string? Name { get; set; }
         public string? TemplateDescription { get; set; }
-        public List<KeyValuePair<string, double>>? SkillsUOSA { get; set; }
-        public int? SkillCapUOSA = 700;
+        public List<KeyValuePair<string, double>>? Skills { get; set; }
+        public int? SkillCap = 700;
         public int? LongtermMurders { get; set; }
         public int? TournamentMatches { get; set; }
         public DateTime CharacterCreated { get; set; }
