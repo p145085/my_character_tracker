@@ -30,11 +30,11 @@ Counter Strike : Global Offensive
 
 Dota 2
 
+Quake Live
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Quake Live
 
 Old School Runescape
 
