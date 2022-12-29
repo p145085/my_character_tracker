@@ -28,11 +28,11 @@ Heroes of the Storm
 
 Counter Strike : Global Offensive
 
+Dota 2
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Dota 2
 
 Quake Live
 
