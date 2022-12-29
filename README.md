@@ -36,11 +36,11 @@ Old School Runescape
 
 Runescape
 
+Pokemon Go
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Pokemon Go
 
 Eve Online
 
