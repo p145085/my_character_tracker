@@ -8,7 +8,24 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
-          
+
+
+            // Pokémon Go
+            var PokemonGo = new List<PokemonGoProfile>
+            {
+                // Pokémon Go
+                new PokemonGoProfile
+                {
+                    Name = "Populus145085",
+                    Level = 38,
+                    DistanceWalked = 1306.9,
+                    PokemonCaught = 9933,
+                    PokemonStops = 4385,
+                    Experience = 14073385,
+                    CharacterCreated = DateTime.Parse("2016-07-08"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                }
+            };
 
             // Runescape
             var Runescape = new List<RunescapeCharacter>
