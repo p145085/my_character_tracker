@@ -42,8 +42,8 @@ Eve Online
 
 Alien Adoption Agency
 
+Call of Duty: Warzone 2.0
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Call of Duty: Warzone 2.0
