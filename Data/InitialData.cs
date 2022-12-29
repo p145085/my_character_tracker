@@ -8,6 +8,19 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+            // Call of Duty: Warzone 2.0
+            var codwz2 = new List<CoDWZ2Profile>
+            {
+                // Call of Duty: Warzone 2.0
+                new CoDWZ2Profile
+                {
+                    CharacterName = "Populus",
+                    Level = 56,
+                }
+            };
+            codwz2.ForEach(character => context.coDWZ2Profiles.Add(character));
+            context.SaveChanges();
+
             // Alien Adoption Agency (A3)
             var alienaa = new List<A3Alien>
             {

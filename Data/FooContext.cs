@@ -29,6 +29,7 @@ namespace my_character_tracker.Data
         public DbSet<PokemonGoProfile>? pokemonGoProfiles { get; set; }
         public DbSet<EveOnlineCharacter>? eveOnlineCharacters { get; set; }
         public DbSet<A3Alien>? a3Aliens { get; set; }
+        public DbSet<CoDWZ2Profile>? coDWZ2Profiles { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
