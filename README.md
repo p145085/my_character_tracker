@@ -40,10 +40,10 @@ Pokemon Go
 
 Eve Online
 
+Alien Adoption Agency
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Alien Adoption Agency
 
 Call of Duty: Warzone 2.0
