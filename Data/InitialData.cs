@@ -8,7 +8,41 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
-
+            // Alien Adoption Agency (A3)
+            var alienaa = new List<A3Alien>
+            {
+                // Alien Adoption Agency (A3)
+                new A3Alien
+                {
+                    Name = "Populus",
+                    Level = 99,
+                    CharacterCreated = DateTime.Parse("2005-05-08"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                },
+                new A3Alien
+                {
+                    Name = "Popssss",
+                    Level = 8,
+                    CharacterCreated = DateTime.Parse("2014-09-24"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                },
+                new A3Alien
+                {
+                    Name = "Popsss",
+                    Level = 0,
+                    CharacterCreated = DateTime.Parse("2000-00-00"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                },
+                new A3Alien
+                {
+                    Name = "Populuss",
+                    Level = 0,
+                    CharacterCreated = DateTime.Parse("2000-00-00"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                }
+            };
+            alienaa.ForEach(character => context.a3Aliens.Add(character));
+            context.SaveChanges();
 
             // Eve Online
             var EveOnline = new List<EveOnlineCharacter>
@@ -20,6 +54,7 @@ namespace my_character_tracker.Data
                     SkillPoints = 15317091,
                     SecurityStatus = -0.4,
                     CharacterCreated = DateTime.Parse("2014-01-25"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
                 },
                 new EveOnlineCharacter
                 {
@@ -27,6 +62,7 @@ namespace my_character_tracker.Data
                     SkillPoints = 922765,
                     SecurityStatus = 0.0,
                     CharacterCreated = DateTime.Parse("2021-03-23"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
                 },
                 new EveOnlineCharacter
                 {
@@ -34,6 +70,7 @@ namespace my_character_tracker.Data
                     SkillPoints = 1514943,
                     SecurityStatus = 0.0,
                     CharacterCreated = DateTime.Parse("2015-01-04"),
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
                 }
             };
             EveOnline.ForEach(character => context.eveOnlineCharacters.Add(character));
