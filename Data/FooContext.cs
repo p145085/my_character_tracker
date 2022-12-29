@@ -24,6 +24,8 @@ namespace my_character_tracker.Data
         public DbSet<CSGOProfile>? CSGOProfiles { get; set; }
         public DbSet<Dota2Profile>? Dota2Profiles { get; set; }
         public DbSet<QuakeLiveProfile>? QuakeLiveProfiles { get; set; }
+        public DbSet<OldSchoolRunescapeCharacter>? oldSchoolRunescapeCharacters { get; set; }
+        public DbSet<RunescapeCharacter>? runescapeCharacters { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

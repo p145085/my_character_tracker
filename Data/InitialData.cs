@@ -8,7 +8,43 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+          
 
+            // Runescape
+            var Runescape = new List<RunescapeCharacter>
+            {
+                // Runescape
+                new RunescapeCharacter
+                {
+                    Name = "81 Mime 1281",
+                    CombatLevel = 50,
+                    Level = 207,
+                    CharacterCreated = DateTime.Parse("2000-01-01"), // N/A - Data Unavailable
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                },
+                new RunescapeCharacter
+                {
+                    Name = "Gobler",
+                    CombatLevel = 61,
+                    Level = 631,
+                    CharacterCreated = DateTime.Parse("2000-01-01"), // N/A - Data Unavailable
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                },
+            };
+
+            // Old School Runescape
+            var OSRunescape = new List<OldSchoolRunescapeCharacter>
+            {
+                // Old School Runescape
+                new OldSchoolRunescapeCharacter
+                {
+                    Name = "81 Mime 1281",
+                    CombatLevel = 15,
+                    Level = 78,
+                    CharacterCreated = DateTime.Parse("2000-01-01"), // N/A - Data Unavailable
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                }
+            };
 
             // Quake Live
             var QuakeLive = new List<QuakeLiveProfile>
