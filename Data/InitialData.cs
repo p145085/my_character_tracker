@@ -8,6 +8,23 @@ namespace my_character_tracker.Data
     {
         protected override void Seed(FooContext context)
         {
+
+
+            // Quake Live
+            var QuakeLive = new List<QuakeLiveProfile>
+            {
+                // Quake Live
+                new QuakeLiveProfile
+                {
+                    CharacterName = "Populus",
+                    GamesPlayed = 732,
+                    Kills = 8013,
+                    CharacterCreated = DateTime.Parse("2000-01-01"), // N/A - Data Unavailable
+                    AddedToDatabase = DateTime.Parse("2022-12-29"),
+                }
+            };
+
+            // Defense of the Ancients 2 (DOTA 2)
             var Dota2 = new List<Dota2Profile>
             {
                 // Defense of the Ancients 2 (DOTA 2)
