@@ -38,11 +38,11 @@ Runescape
 
 Pokemon Go
 
+Eve Online
+
 **To-do:**
 
 World of Warcraft (Classic)
-
-Eve Online
 
 Alien Adoption Agency
 
