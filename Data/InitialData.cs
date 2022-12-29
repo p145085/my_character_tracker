@@ -755,6 +755,61 @@ namespace my_character_tracker.Data
             D2R.ForEach(character => context.D2RCharacters.Add(character));
             context.SaveChanges();
 
+            var WoWC = new List<WoWClassicCharacter>
+            {
+                // Realm: Skullflame
+                new WoWClassicCharacter{
+                    Name="Message",
+                    Level=1,
+                    Class="Warrior",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                },
+                new WoWClassicCharacter{
+                    Name="Kuffalo",
+                    Level=14,
+                    Class="Druid",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                },
+                new WoWClassicCharacter{
+                    Name="Faquarl",
+                    Level=12,
+                    Class="Mage",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                },
+                new WoWClassicCharacter{
+                    Name="Domina",
+                    Level=20,
+                    Class="Hunter",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                },
+                new WoWClassicCharacter{
+                    Name="Kiferal",
+                    Level=5,
+                    Class="Shaman",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                },
+                new WoWClassicCharacter{
+                    Name="Populus",
+                    Level=34,
+                    Class="Rogue",
+                    AddedToDatabase=DateTime.Parse("2022-12-29"),
+                    Game="World of Warcraft (Classic)",
+                    Realm="Skullflame"
+                }
+            };
+            WoWC.ForEach(character => context.WoWClassicCharacters.Add(character));
+            context.SaveChanges();
+
             // World of Warcraft
             var WoW = new List<WoWCharacter>
             {

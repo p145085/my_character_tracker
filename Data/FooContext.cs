@@ -11,6 +11,7 @@ namespace my_character_tracker.Data
 
         }
         public DbSet<WoWCharacter>? WoWCharacters { get; set; }
+        public DbSet<WoWClassicCharacter>? WoWClassicCharacters { get; set; }
         public DbSet<PoECharacter>? PoECharacters { get; set; }
         public DbSet<UltimaOnlineSecondageCharacter>? UOSACharacters { get; set; }
         public DbSet<UltimaOnlineOutlandsCharacter>? UOOCharacters { get; set; }
